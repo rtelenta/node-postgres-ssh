@@ -34,7 +34,7 @@ DB_PASSWORD=123456
 Ejecuta el comando:
 
 ```
-yarn show:tables
+yarn query
 ```
 
 Si la conexión ha sido exitosa obtendras un resultado similar siguiente:
