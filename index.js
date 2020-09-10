@@ -37,6 +37,7 @@ function Query(query, db) {
     );
   });
 }
+
 const db = {
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
