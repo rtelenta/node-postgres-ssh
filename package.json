@@ -1,0 +1,15 @@
+{
+  "name": "node-postgres-ssh",
+  "version": "1.0.0",
+  "description": "example contection to postgresql with ssh conection",
+  "scripts": {
+    "show:tables": "node -r dotenv/config index.js"
+  },
+  "author": "Renzo Telenta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.3.3",
+    "tunnel-ssh": "^4.1.4"
+  }
+}
